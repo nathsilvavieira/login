@@ -1,0 +1,57 @@
+/*#id
+.class
+:pseudoclasse
+::pseudoelemento
+> filho*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background: gray;
+    font-family: 'Roboto', sans-serif;
+}
+#form{ /* configuracao divs*/
+    border:1px solid lightgray;
+    background-color: gray;
+    padding: 30px;
+    max-width: 400px;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+h1{
+    margin:0px 0px 20px; 
+    color:honeydew;
+    transition: color 0.03s ease-in-out;
+}
+input[type="nome"], /*conf inputs form*/
+input[type="email"],
+input[type="password"]{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    outline: none;
+    background: none;
+    color: white;
+    border-bottom: 2px solid honeydew;
+    margin-bottom: 30px;
+    
+}
+::placeholder{ /* texto auxilio dentro outline*/
+    color:white;
+}
+button.btn{
+    background-color: purple ;
+    color: white;
+    border: none;
+    padding: 10px;
+    outline: none; /* tira estilo padrao botao*/
+    border-radius: 5px;
+    transition: color 0.3s ease-in-out; /*  usar color ao inves de all para nao demorar no carregamento transicao mais suave com botao*/
+    cursor: pointer;
+}
+
+
+

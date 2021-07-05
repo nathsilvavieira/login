@@ -1,0 +1,14 @@
+h1:hover{ /*transicao cursor no titulo*/
+    color:purple;
+    font-weight: bold;
+}
+input[type="nome"]:hover, /*conf  rolagem inputs form*/
+input[type="email"]:hover,
+input[type="password"]:hover{
+    background-color: purple;
+}
+button.btn:hover{/* conf rolagem estilo botao*/
+    background-color: white; 
+    color: purple;
+    font-weight: bold;
+}
